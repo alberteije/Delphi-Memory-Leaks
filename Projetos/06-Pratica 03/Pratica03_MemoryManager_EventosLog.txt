@@ -1,0 +1,427 @@
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+404451 [System][@ReallocMem]
+43734F [Classes][TStringList.SetCapacity]
+4370CD [Classes][TStringList.Grow]
+437195 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AC678 [P03_02.pas][P03_02][TForm2.Button5Click][32]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: Desconhecida
+
+O n˙mero da alocaÁ„o È: 1430
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF06E80:
+6C 75 F0 7F 00 00 00 00 9C 70 F0 7F 00 00 00 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+36 41 E1 FB 80 80 80 80 00 00 00 00 C1 70 F0 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+F3 04 00 00 E2 43 40 00 B3 74 40 00 F8 6B 40 00 28 D5 41 00 DD D4 41 00 52 B1 43 00 F4 9B 43 00
+67 A6 43 00 E6 9E 43 00 25 9E 43 00 F2 FE 43 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 C5 62 40 00
+D5 78 40 00 1D 78 40 00 97 50 40 00 DA 4F 40 00 8D 55 40 00 C8 DE 45 00 7D DD 47 00 4D F0 49 00
+46 FE 49 00 1C 00 00 00 B0 04 02 00 FE B8 B1 85 64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 01 47 4E 7A 80 80 80 80 80 80 80 80 00 00 00 00 21 72 F0 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FA 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+l  u      .  .  .  .  ú  p      .  .  .  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+6  A  ·  ˚  Ä  Ä  Ä  Ä  .  .  .  .  ¡  p      .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Û  .  .  .  ‚  C  @  .  ≥  t  @  .  ¯  k  @  .  (  ’  A  .  ›  ‘  A  .  R  ±  C  .  Ù  õ  C  .
+g  ¶  C  .  Ê  û  C  .  %  û  C  .  Ú  ˛  C  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ≈  b  @  .
+’  x  @  .  .  x  @  .  ó  P  @  .  ⁄  O  @  .  ç  U  @  .  »  ﬁ  E  .  }  ›  G  .  M    I  .
+F  ˛  I  .  .  .  .  .  ∞  .  .  .  ˛  ∏  ±  Ö  d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  G  N  z  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  !  r    
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ˙  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4371D7 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AC684 [P03_02.pas][P03_02][TForm2.Button5Click][33]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1432
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF07090:
+B0 04 02 00 01 00 00 00 04 00 00 00 45 00 69 00 6A 00 65 00 00 00 B5 A3 DF 79 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 61 6F F0 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+FB 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00 FF B3 48 00 6B 9F 48 00 31 D0 47 00 D5 94 47 00
+2D DB 47 00 96 D6 40 00 63 D1 45 00 58 D4 45 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 E1 4F 40 00
+8D 55 40 00 99 B4 48 00 27 50 40 00 08 96 47 00 E1 4F 40 00 8D 55 40 00 21 4B 43 00 CD DD 47 00
+BD DE 45 00 24 00 00 00 64 F6 46 00 2D A0 10 86 64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 D2 5F EF 79 00 00 00 00 D1 72 F0 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FE 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+∞  .  .  .  .  .  .  .  .  .  .  .  E  .  i  .  j  .  e  .  .  .  µ  £  ﬂ  y  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  a  o      .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+˚  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .  ˇ  ≥  H  .  k  ü  H  .  1  –  G  .  ’  î  G  .
+-  €  G  .  ñ  ÷  @  .  c  —  E  .  X  ‘  E  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ·  O  @  .
+ç  U  @  .  ô  ¥  H  .  '  P  @  .  .  ñ  G  .  ·  O  @  .  ç  U  @  .  !  K  C  .  Õ  ›  G  .
+Ω  ﬁ  E  .  $  .  .  .  d  ˆ  F  .  -  †  .  Ü  d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  “  _  Ô  y  .  .  .  .  —  r    
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ˛  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4371D7 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AC678 [P03_02.pas][P03_02][TForm2.Button5Click][32]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1431
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF07560:
+B0 04 02 00 01 00 00 00 06 00 00 00 41 00 6C 00 62 00 65 00 72 00 74 00 00 00 58 82 EA FB 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+∞  .  .  .  .  .  .  .  .  .  .  .  A  .  l  .  b  .  e  .  r  .  t  .  .  .  X  Ç  Í  ˚  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 84
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+404FC3 [System][TObject.NewInstance]
+405542 [System][@ClassCreate]
+43742A [Classes][TStringList.Create]
+7E37C3FF [Unknown function at ReleaseCapture]
+4AD868 [P03.pas][P03][TForm1.Button5Click][145]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+7E3688DA [GetWindowLongW]
+
+O bloco est· sendo usado por um objeto da classe: TStringList
+
+O n˙mero da alocaÁ„o È: 1414
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF7E4B0:
+44 B6 42 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F7 FA 7F
+02 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 E2 5D 1C 94 80 80 80 80 80 80 80 80 00 00 00 00 01 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 36 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+E2 E3 49 00 FA DB 47 00 28 DC 47 00 A7 EF 49 00 6A F9 49 00 E5 A2 4A 00 B6 3C 4B 00 77 70 81 7C
+E4 04 00 00 E4 04 00 00 FE 43 40 00 E1 4F 40 00 8D 55 40 00 21 4B 43 00 27 50 40 00 2E F0 49 00
+46 FE 49 00 C2 FC 43 00 42 DE 49 00 4C 4C 41 00 33 61 40 00 4C 00 00 00 20 6E 49 00 33 1B 6F 02
+64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+D  ∂  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ˜  ˙  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  ‚  ]  .  î  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  6  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+‚  „  I  .  ˙  €  G  .  (  ‹  G  .  ß  Ô  I  .  j  ˘  I  .  Â  ¢  J  .  ∂  <  K  .  w  p  Å  |
+‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ·  O  @  .  ç  U  @  .  !  K  C  .  '  P  @  .  .    I  .
+F  ˛  I  .  ¬  ¸  C  .  B  ﬁ  I  .  L  L  A  .  3  a  @  .  L  .  .  .     n  I  .  3  .  o  .
+d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 84
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+404FC3 [System][TObject.NewInstance]
+405542 [System][@ClassCreate]
+43742A [Classes][TStringList.Create]
+7E37C3FF [Unknown function at ReleaseCapture]
+4AC66A [P03_02.pas][P03_02][TForm2.Button5Click][31]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+7E3688DA [GetWindowLongW]
+
+O bloco est· sendo usado por um objeto da classe: TStringList
+
+O n˙mero da alocaÁ„o È: 1429
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF7E750:
+44 B6 42 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 6E F0 7F
+02 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 AD 7F 08 89 80 80 80 80 80 80 80 80 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+D  ∂  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Ä  n    
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  ≠    .  â  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 20
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+404FC3 [System][TObject.NewInstance]
+405542 [System][@ClassCreate]
+404FF8 [System][TObject.Create]
+7E37C3FF [Unknown function at ReleaseCapture]
+7E36885A [Unknown function at GetDC]
+4AD65B [P03.pas][P03][TForm1.Button4Click][128]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: TFornecedor
+
+O n˙mero da alocaÁ„o È: 1401
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FF9D450:
+8C C7 4A 00 9C E8 FA 7F 5C F6 FA 7F 0F 00 00 00 00 00 00 00 30 7E 55 A3 00 00 00 00 F1 C2 F9 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 A1 05 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+F8 4F 40 00 6C 21 4A 00 FB 3F 4A 00 51 A3 91 7C 77 C0 47 00 27 33 4A 00 77 C0 47 00 CB A3 91 7C
+E4 04 00 00 E4 04 00 00 FE 43 40 00 E1 4F 40 00 8D 55 40 00 35 3C 43 00 27 50 40 00 22 FE 49 00
+C2 FC 43 00 42 DE 49 00 4C 4C 41 00 33 61 40 00 C7 3C 4B 00 14 00 00 00 7C 90 42 00 14 43 B8 7E
+64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 EB BC 47 81 00 00 00 00 31 BA F9 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8E 05 00 00 51 44 40 00 D1 40 43 00 5C 3E 43 00
+DF 3E 43 00 9D 59 4A 00 4B 52 40 00 83 DE 4A 00 E5 C5 47 00 A3 D5 45 00 09 E0 45 00 77 C0 47 00
+å  «  J  .  ú  Ë  ˙    \  ˆ  ˙    .  .  .  .  .  .  .  .  0  ~  U  £  .  .  .  .  Ò  ¬  ˘  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  °  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+¯  O  @  .  l  !  J  .  ˚  ?  J  .  Q  £  ë  |  w  ¿  G  .  '  3  J  .  w  ¿  G  .  À  £  ë  |
+‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ·  O  @  .  ç  U  @  .  5  <  C  .  '  P  @  .  "  ˛  I  .
+¬  ¸  C  .  B  ﬁ  I  .  L  L  A  .  3  a  @  .  «  <  K  .  .  .  .  .  |  ê  B  .  .  C  ∏  ~
+d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Î  º  G  Å  .  .  .  .  1  ∫  ˘  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  é  .  .  .  Q  D  @  .  —  @  C  .  \  >  C  .
+ﬂ  >  C  .  ù  Y  J  .  K  R  @  .  É  ﬁ  J  .  Â  ≈  G  .  £  ’  E  .  .  ‡  E  .  w  ¿  G  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4AD670 [P03.pas][P03][TForm1.Button4Click][130]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+7E3688DA [GetWindowLongW]
+773D8EF3 [Unknown function at ImageList_LoadImageA]
+773D99CB [Unknown function at ImageList_LoadImageA]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1402
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FFAE890:
+B0 04 02 00 01 00 00 00 06 00 00 00 41 00 6C 00 62 00 65 00 72 00 74 00 00 00 2C 61 9E A5 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 91 E2 FA 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+74 03 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00 47 9F 48 00 6A 94 47 00 2D DB 47 00 96 D6 40 00
+63 D1 45 00 58 D4 45 00 04 9A 43 00 35 9C 43 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 E1 4F 40 00
+8D 55 40 00 21 4B 43 00 27 50 40 00 ED 95 47 00 E1 4F 40 00 8D 55 40 00 21 4B 43 00 CD DD 47 00
+BD DE 45 00 24 00 00 00 D4 DC 46 00 FD 44 0C 86 64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 02 BB F3 79 00 00 00 00 C1 E8 FA 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 75 03 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+∞  .  .  .  .  .  .  .  .  .  .  .  A  .  l  .  b  .  e  .  r  .  t  .  .  .  ,  a  û  •  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  ë  ‚  ˙    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+t  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .  G  ü  H  .  j  î  G  .  -  €  G  .  ñ  ÷  @  .
+c  —  E  .  X  ‘  E  .  .  ö  C  .  5  ú  C  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ·  O  @  .
+ç  U  @  .  !  K  C  .  '  P  @  .  Ì  ï  G  .  ·  O  @  .  ç  U  @  .  !  K  C  .  Õ  ›  G  .
+Ω  ﬁ  E  .  $  .  .  .  ‘  ‹  F  .  ˝  D  .  Ü  d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  ª  Û  y  .  .  .  .  ¡  Ë  ˙  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  u  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4AD683 [P03.pas][P03][TForm1.Button4Click][131]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+7E3688DA [GetWindowLongW]
+773D8EF3 [Unknown function at ImageList_LoadImageA]
+773D99CB [Unknown function at ImageList_LoadImageA]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1403
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FFAF650:
+B0 04 02 00 01 00 00 00 08 00 00 00 45 00 6E 00 64 00 65 00 72 00 65 00 E7 00 6F 00 00 00 7A 8D
+F8 8F 80 80 80 80 80 80 00 00 00 00 D0 8B FA 7F 00 00 00 00 00 00 00 00 A4 E5 40 00 00 00 00 00
+87 05 00 00 51 44 40 00 4F 73 43 00 CD 70 43 00 95 71 43 00 11 6E 43 00 B5 6D 43 00 76 D8 4A 00
+E5 C5 47 00 A3 D5 45 00 09 E0 45 00 77 C0 47 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 E1 4F 40 00
+8D 55 40 00 2B 85 43 00 27 50 40 00 E3 37 43 00 3C 39 43 00 CA 39 43 00 FB F9 49 00 E5 A2 4A 00
+B6 3C 4B 00 20 00 00 00 58 CB 42 00 6E 84 64 86 BC F7 FA 7F 00 00 00 00 7C FA FA 7F 00 00 00 00
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 91 7B 9B 79 80 80 80 80 00 00 00 00 D0 8B FA 7F
+00 00 00 00 00 00 00 00 A4 E5 40 00 00 00 00 00 88 05 00 00 E2 43 40 00 B3 74 40 00 CC 6A 40 00
+∞  .  .  .  .  .  .  .  .  .  .  .  E  .  n  .  d  .  e  .  r  .  e  .  Á  .  o  .  .  .  z  ç
+¯  è  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  –  ã  ˙    .  .  .  .  .  .  .  .  §  Â  @  .  .  .  .  .
+á  .  .  .  Q  D  @  .  O  s  C  .  Õ  p  C  .  ï  q  C  .  .  n  C  .  µ  m  C  .  v  ÿ  J  .
+Â  ≈  G  .  £  ’  E  .  .  ‡  E  .  w  ¿  G  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ·  O  @  .
+ç  U  @  .  +  Ö  C  .  '  P  @  .  „  7  C  .  <  9  C  .     9  C  .  ˚  ˘  I  .  Â  ¢  J  .
+∂  <  K  .     .  .  .  X  À  B  .  n  Ñ  d  Ü  º  ˜  ˙    .  .  .  .  |  ˙  ˙    .  .  .  .
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ë  {  õ  y  Ä  Ä  Ä  Ä  .  .  .  .  –  ã  ˙  
+.  .  .  .  .  .  .  .  §  Â  @  .  .  .  .  .  à  .  .  .  ‚  C  @  .  ≥  t  @  .  Ã  j  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+404451 [System][@ReallocMem]
+43734F [Classes][TStringList.SetCapacity]
+4370CD [Classes][TStringList.Grow]
+437195 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AD876 [P03.pas][P03][TForm1.Button5Click][146]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: Desconhecida
+
+O n˙mero da alocaÁ„o È: 1415
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FFAF700:
+BC F7 FA 7F 00 00 00 00 7C FA FA 7F 00 00 00 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+91 7B 9B 79 80 80 80 80 00 00 00 00 D0 8B FA 7F 00 00 00 00 00 00 00 00 A4 E5 40 00 00 00 00 00
+88 05 00 00 E2 43 40 00 B3 74 40 00 CC 6A 40 00 D7 71 43 00 11 6E 43 00 B5 6D 43 00 76 D8 4A 00
+E5 C5 47 00 A3 D5 45 00 09 E0 45 00 77 C0 47 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 EE 62 40 00
+07 AF 43 00 AF 78 43 00 CC 37 43 00 3C 39 43 00 CA 39 43 00 FB F9 49 00 E5 A2 4A 00 B6 3C 4B 00
+77 70 81 7C 1A 00 00 00 B0 04 02 00 EB 39 62 02 B0 04 02 00 01 00 00 00 06 00 00 00 41 00 6C 00
+62 00 65 00 72 00 74 00 00 00 14 C6 9D FD 80 80 80 80 80 80 80 80 80 80 00 00 00 00 D1 D4 FA 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AA 05 00 00 E2 43 40 00 8F 66 41 00 9D 66 41 00
+º  ˜  ˙    .  .  .  .  |  ˙  ˙    .  .  .  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+ë  {  õ  y  Ä  Ä  Ä  Ä  .  .  .  .  –  ã  ˙    .  .  .  .  .  .  .  .  §  Â  @  .  .  .  .  .
+à  .  .  .  ‚  C  @  .  ≥  t  @  .  Ã  j  @  .  ◊  q  C  .  .  n  C  .  µ  m  C  .  v  ÿ  J  .
+Â  ≈  G  .  £  ’  E  .  .  ‡  E  .  w  ¿  G  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  Ó  b  @  .
+.  Ø  C  .  Ø  x  C  .  Ã  7  C  .  <  9  C  .     9  C  .  ˚  ˘  I  .  Â  ¢  J  .  ∂  <  K  .
+w  p  Å  |  .  .  .  .  ∞  .  .  .  Î  9  b  .  ∞  .  .  .  .  .  .  .  .  .  .  .  A  .  l  .
+b  .  e  .  r  .  t  .  .  .  .  ∆  ù  ˝  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  —  ‘  ˙  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ™  .  .  .  ‚  C  @  .  è  f  A  .  ù  f  A  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4371D7 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AD876 [P03.pas][P03][TForm1.Button5Click][146]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1416
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FFAF7B0:
+B0 04 02 00 01 00 00 00 06 00 00 00 41 00 6C 00 62 00 65 00 72 00 74 00 00 00 14 C6 9D FD 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 D1 D4 FA 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+AA 05 00 00 E2 43 40 00 8F 66 41 00 9D 66 41 00 DD 26 48 00 77 C0 47 00 BA A1 91 7C CB A3 91 7C
+D7 F2 96 7C 41 09 48 00 E0 05 97 7C C4 05 97 7C E4 04 00 00 E4 04 00 00 FE 43 40 00 E6 66 41 00
+DD 95 47 00 E1 4F 40 00 8D 55 40 00 21 4B 43 00 CD DD 47 00 BD DE 45 00 7D DD 47 00 4D F0 49 00
+46 FE 49 00 22 00 00 00 22 00 00 00 23 07 75 F3 64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 DC F8 8A 0C 80 80 00 00 00 00 31 E1 FA 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F9 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+∞  .  .  .  .  .  .  .  .  .  .  .  A  .  l  .  b  .  e  .  r  .  t  .  .  .  .  ∆  ù  ˝  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  —  ‘  ˙    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+™  .  .  .  ‚  C  @  .  è  f  A  .  ù  f  A  .  ›  &  H  .  w  ¿  G  .  ∫  °  ë  |  À  £  ë  |
+◊  Ú  ñ  |  A  .  H  .  ‡  .  ó  |  ƒ  .  ó  |  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  Ê  f  A  .
+›  ï  G  .  ·  O  @  .  ç  U  @  .  !  K  C  .  Õ  ›  G  .  Ω  ﬁ  E  .  }  ›  G  .  M    I  .
+F  ˛  I  .  "  .  .  .  "  .  .  .  #  .  u  Û  d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ‹  ¯  ä  .  Ä  Ä  .  .  .  .  1  ·  ˙  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ˘  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Um bloco de memÛria vazou. O tamanho È: 36
+
+Este bloco foi alocado pela thread 0x4E4, e a an·lise da pilha interna (endereÁos de retorno) no momento era:
+4043E2 [System][@GetMem]
+4074B3 [System][@NewUnicodeString]
+406ACC [System][@UStrAsg]
+4371D7 [Classes][TStringList.InsertItem]
+436E11 [Classes][TStringList.AddObject]
+436DB5 [Classes][TStringList.Add]
+4AD882 [P03.pas][P03][TForm1.Button5Click][147]
+47C5E5 [Controls][TControl.Click]
+45D5A3 [StdCtrls][TCustomButton.Click]
+45E009 [StdCtrls][TCustomButton.CNCommand]
+47C077 [Controls][TControl.WndProc]
+
+O bloco est· sendo usado por um objeto da classe: UnicodeString
+
+O n˙mero da alocaÁ„o È: 1417
+
+Dump de memÛria atual de 256 bytes iniciando no endereÁo 7FFAFA70:
+B0 04 02 00 01 00 00 00 04 00 00 00 45 00 69 00 6A 00 65 00 00 00 A3 5F D2 79 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 01 FC FA 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+B8 04 00 00 E2 43 40 00 B3 74 40 00 F8 6B 40 00 28 D5 41 00 DD D4 41 00 52 B1 43 00 F4 9B 43 00
+C5 62 40 00 67 A6 43 00 E6 9E 43 00 25 9E 43 00 E4 04 00 00 E4 04 00 00 FE 43 40 00 C5 62 40 00
+D5 78 40 00 1D 78 40 00 97 50 40 00 DA 4F 40 00 8D 55 40 00 6D CD 45 00 7D DD 47 00 4D F0 49 00
+46 FE 49 00 18 00 00 00 B0 04 02 00 27 97 B8 85 64 D2 4B 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 D8 68 47 7A 80 80 80 80 80 80 80 80 80 80 80 80 00 00 00 00 61 FD FA 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 BE 04 00 00 E2 43 40 00 C3 4F 40 00 42 55 40 00
+∞  .  .  .  .  .  .  .  .  .  .  .  E  .  i  .  j  .  e  .  .  .  £  _  “  y  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  ¸  ˙    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+∏  .  .  .  ‚  C  @  .  ≥  t  @  .  ¯  k  @  .  (  ’  A  .  ›  ‘  A  .  R  ±  C  .  Ù  õ  C  .
+≈  b  @  .  g  ¶  C  .  Ê  û  C  .  %  û  C  .  ‰  .  .  .  ‰  .  .  .  ˛  C  @  .  ≈  b  @  .
+’  x  @  .  .  x  @  .  ó  P  @  .  ⁄  O  @  .  ç  U  @  .  m  Õ  E  .  }  ›  G  .  M    I  .
+F  ˛  I  .  .  .  .  .  ∞  .  .  .  '  ó  ∏  Ö  d  “  K  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ÿ  h  G  z  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  a  ˝  ˙  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  æ  .  .  .  ‚  C  @  .  √  O  @  .  B  U  @  .
+
+--------------------------------2012/6/14 11:41:24--------------------------------
+Essa aplicaÁ„o teve vazamentos de memÛria. Os vazamentos dos blocos pequenos s„o (excluindo os vazamentos esperados registrados por ponteiro):
+
+13 - 20 bytes: TFornecedor x 1
+21 - 36 bytes: UnicodeString x 6, Desconhecida x 2
+69 - 84 bytes: TStringList x 2
+
+Nota: O detalhe do vazamento de memÛria est· logado em um arquivo texto na mesma pasta que essa aplicaÁ„o. Para desabilitar essa checagem de vazamento de memÛria, desabilite o DEFINE "EnableMemoryLeakReporting".

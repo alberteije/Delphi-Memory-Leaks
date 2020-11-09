@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/06/13 15:01:09.254.dproj,C:\Documents and Settings\Eije\Meus documentos\RAD Studio\Projects\Project1.dproj=C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\Pratica03.dproj</Transaction>
+    <Transaction>2012/06/13 15:01:44.264.pas,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\Unit1.pas=C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03_02.pas</Transaction>
+    <Transaction>2012/06/13 15:01:44.264.dfm,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\Unit1.dfm=C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03_02.dfm</Transaction>
+    <Transaction>2012/06/13 15:01:54.539.pas,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03.pas=</Transaction>
+    <Transaction>2012/06/13 15:01:54.539.dfm,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03.dfm=</Transaction>
+    <Transaction>2012/06/13 15:02:07.838.pas,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03.pas=</Transaction>
+    <Transaction>2012/06/13 15:02:07.838.dfm,C:\Documents and Settings\Eije\Desktop\testes\Pratica 03\P03.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>
